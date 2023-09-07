@@ -1,2 +1,2 @@
 #!/bin/bash
-thi is a hellow.c
+thi is a hellow.c programm
