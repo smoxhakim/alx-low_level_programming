@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char star = 'a';
@@ -21,8 +23,8 @@ int main(void)
 		putchar(cont1);
 	}
 
-        putchar('\n');
+	putchar('\n');
 
-        return (0);
+	return (0);
 
 }
