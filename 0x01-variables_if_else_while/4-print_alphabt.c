@@ -16,7 +16,7 @@ int main(void)
 	{
 		if(cont == 'e')
 		{
-			cot++;
+			cont++;
 		}
 		else if(cont == 'q')
 		{
