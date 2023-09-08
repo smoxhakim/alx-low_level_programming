@@ -8,7 +8,7 @@ int main(void)
 	char star = 'a';
 	char end = 'z';
 
-	for(char cont = star; cont <= end; cont++)
+	while(char cont = star; cont <= end; cont++)
 	{
 		putchar(cont);
 	}
