@@ -9,7 +9,7 @@ int main(void)
 	char star = 'a';
 	char end = 'z';
 	char cont;
-	char starA = 'A'
+	char starA = 'A';
 	char endZ = 'Z';
 	char cont1;
 	for (cont = star; cont <= end; cont++)
