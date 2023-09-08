@@ -10,9 +10,8 @@ int main(void)
 	char end = 'z';
 	char cont;
 
-	for(cont = star; cont <= end; cont++)
+	for (cont = star; cont <= end; cont++)
 	{
-		
 		putchar(cont);
 	}
 
