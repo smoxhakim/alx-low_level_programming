@@ -25,10 +25,6 @@ int main(void)
 
 		putchar(cont);
 	}
-	for (cont1 = starA; cont1 <= endZ; cont1++)
-	{
-		putchar(cont1);
-	}
 
 	putchar('\n');
 
