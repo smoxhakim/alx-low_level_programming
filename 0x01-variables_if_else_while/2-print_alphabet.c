@@ -8,12 +8,12 @@ int main(void)
 	char star = 'a';
 	char end = 'z';
 
-	for(char cont = star, cont <= end, cont++)
+	for(char cont = star; cont <= end; cont++)
 	{
 		putchar(cont);
 	}
 
-	putchar(\n);
+	putchar('\n');
 
 	return (0);
 
