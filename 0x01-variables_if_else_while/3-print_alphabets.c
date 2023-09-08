@@ -14,6 +14,7 @@ int main(void)
 	char starA = 'A';
 	char endZ = 'Z';
 	char cont1;
+
 	for (cont = star; cont <= end; cont++)
 	{
 		putchar(cont);
