@@ -14,11 +14,11 @@ int main(void)
 
 	for (cont = star; cont <= end; cont++)
 	{
-		if(cont == 'e')
+		if (cont == 'e')
 		{
 			cont++;
 		}
-		else if(cont == 'q')
+		else if (cont == 'q')
 		{
 			cont++;
 		}
