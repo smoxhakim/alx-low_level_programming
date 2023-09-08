@@ -11,6 +11,7 @@ int main(void)
 
 	for(cont = star; cont <= end; cont++)
 	{
+		/* this fonction wna print alphabet */
 		putchar(cont);
 	}
 
