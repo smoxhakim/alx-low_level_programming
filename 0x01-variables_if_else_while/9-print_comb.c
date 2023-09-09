@@ -14,8 +14,11 @@ int main(void)
 	for (x = 0; x < 10; x++)
 	{
 		putchar('0' + num[x]);
+		if (x <= 8)
+		{
 		putchar(',');
 		putchar(' ');
+		}
 	}
 
 	putchar('\n');
