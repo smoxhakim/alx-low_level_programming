@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet(void)
- * the alphabet, in lowercase, followed by a new line.
- * alphabet: a - z
+ * print_alphabet -  the alphabet, in lowercase, followed by a new line
+ * alphabet a - z
  */
-
 void print_alphabet(void)
 {
 	int alph;
