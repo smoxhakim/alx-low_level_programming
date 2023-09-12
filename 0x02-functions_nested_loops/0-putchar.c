@@ -1,11 +1,9 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
- *main - start 
- *
+ *main - start
  *return - 0
- *
- * */
+*/
 
 int main(void)
 {
@@ -14,7 +12,7 @@ int main(void)
 
 	for (x = 0; x < 8; x++)
 	{
-		_putchar(nane[x]);
+		_putchar(name[x]);
 	}
 	_putchar('\n');
 	return (0);
