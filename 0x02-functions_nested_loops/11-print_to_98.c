@@ -9,23 +9,38 @@
 void print_to_98(int n)
 {
 	int p;
-	int ne;
 
 	if (n < 98)
 	{
 		for (p = n; p <= 98; p++)
 		{
 			_putchar(p + 48);
+			if (p != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('\n');
+			}
 		}
 	}
-	else if (n > 98)
+	else
 	{
-		for (ne = n; ne >= 98; ne++)
+		for (p = n; p >= 98; p++)
 		{
-			_putchar(ne + 48);
+			_putchar(p + 48);
+			if (p != 98)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('\n');
+			}
 		}
 	}
 
-	_putchar('\n');
 }
-
