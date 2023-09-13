@@ -17,14 +17,13 @@ void print_to_98(int n)
 		{
 			_putchar(p + 48);
 		}
+	}
 	else if (n > 98)
 	{
 		for (ne = n; ne >= 98; ne++)
 		{
 			_putchar(ne + 48);
 		}
-	}
-
 	}
 
 	_putchar('\n');
