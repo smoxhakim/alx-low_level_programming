@@ -5,20 +5,20 @@
  *
  * @n: takes number input
  *
- * Return 0 semry 
+ * Return: end
 */
 int print_last_digit(int n)
 {
-	int e;
+	int end;
 
 	if (n < 0)
 	{
-		e = -1 * (n % 10);
+		end = -1 * (n % 10);
 	}
 	else
 	{
-		e = n % 10;
+		end = n % 10;
 	}
-	_putchar(e + '0');
-	return (e);
+	_putchar(end + '0');
+	return (end);
 }
