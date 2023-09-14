@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int c, ret;
+	int c;
 	unsigned long f1 = 0, f2 = 1;
 	unsigned long f1_lo1;
 	unsigned long f1_lo2;
 	unsigned long f2_lo1;
 	unsigned long f2_lo2;
-	unsigned long lo1, lo2;
+	unsigned long lo1, lo2, ret;
 
 	for (c = 0; c < 92; c++)
 	{
