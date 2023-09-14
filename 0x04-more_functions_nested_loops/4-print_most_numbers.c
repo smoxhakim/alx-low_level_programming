@@ -10,7 +10,7 @@ void print_most_numbers(void)
 
 	for (a = 0; a < 10; a++)
 	{
-		if (a == 2 && a == 4)
+		if (a == 2 || a == 4)
 		{
 			continue;
 		}
