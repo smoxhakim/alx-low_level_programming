@@ -14,7 +14,7 @@ int main(void)
 	while (1)
 	{
 		fiborest = fibo1 + fibo2;
-		if (fibrest > 4000000)
+		if (fiborest > 4000000)
 			break;
 
 		if ((fiborest % 2) == 0)
