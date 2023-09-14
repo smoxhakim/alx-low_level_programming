@@ -3,8 +3,8 @@
 /**
  *_isupper - checkes for uppercase
  *@c: for the input
- * Return: Always 0 (Success)
- *
+ * Return: 0 if its lowercase
+ * Return: 1 if its uppercase
  */
 
 int _isupper(int c)
@@ -13,7 +13,7 @@ int _isupper(int c)
 	{
 		return (1);
 	}
-	else if (c >= 97 && <= 122)
+	else
 	{
 		return (0);
 	}
