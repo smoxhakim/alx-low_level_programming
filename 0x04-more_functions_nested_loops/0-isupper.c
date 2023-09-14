@@ -2,8 +2,9 @@
 
 /**
  *_isupper - checkes for uppercase
- *
+ *@c: for the input
  * Return: Always 0 (Success)
+ *
  */
 
 int _isupper(int c)
