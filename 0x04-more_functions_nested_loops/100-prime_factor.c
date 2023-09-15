@@ -12,7 +12,7 @@ int main(void)
 
 	for (a = 3; a < 782849; a = a + 2)
 	{
-		while ((prime % a == 0) && (prime != i))
+		while ((prime % a == 0) && (prime != a))
 		{
 			prime = prime / a;
 		}
