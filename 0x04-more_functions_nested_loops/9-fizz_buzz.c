@@ -24,12 +24,13 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		else if (a != 100)
-		{
-			printf(" ");
 		else
 		{
 			printf("%d", a);
+		}
+		if (a < 100)
+		{
+			printf(" ");
 		}
 
 	}
