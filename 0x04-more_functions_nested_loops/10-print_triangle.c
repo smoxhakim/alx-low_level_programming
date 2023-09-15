@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_square - draws a square
+ * print_triangle - draws a square
  * @size: the number of the '#'
  *
  */
 
-void print_square(int size)
+void print_triangle(int size)
 {
 	int a, b, c;
 
