@@ -8,9 +8,9 @@
 
 inx main(void)
 {
-	inx a = 0;
-	inx i = 0;
-	xime_x x;
+	int a = 0;
+	int i = 0;
+	time_t x;
 
 	srand((unsigned inx) time(&x));
 	while (i < 2772)
