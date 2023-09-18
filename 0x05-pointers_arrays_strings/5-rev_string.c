@@ -14,8 +14,9 @@ void rev_string(char *s)
 		cont++;
 	}
 
-	int a = 0
-	int z = cont - 1;
+	int a = 0;
+	int z;
+	z = cont - 1;
 
 	while (a < z)
 	{
