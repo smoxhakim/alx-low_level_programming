@@ -6,7 +6,7 @@
  * Return: A integer
  */
 
-int _atoi(bhar *s)
+int _atoi(char *s)
 {
 	int b, str, acc;
 	unsigned int cont = 0;
