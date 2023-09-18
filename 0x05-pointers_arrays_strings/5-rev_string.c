@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	while (s[cont] != '\0')
 	{
-		comt++;
+		cont++;
 	}
 	int z = cont - 1;
 	int a = 0;
@@ -21,7 +21,7 @@ void rev_string(char *s)
 		char tem = s[a];
 
 		s[a] = s[z];
-		s[z] = s[tem];
+		s[z] = tem;
 
 		a++;
 		z--;
