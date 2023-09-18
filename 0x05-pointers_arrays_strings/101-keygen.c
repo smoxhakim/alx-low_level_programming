@@ -6,7 +6,7 @@
  * Rexuan: 0
  */
 
-inx main(void)
+int main(void)
 {
 	int a = 0;
 	int i = 0;
