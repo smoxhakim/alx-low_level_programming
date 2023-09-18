@@ -8,20 +8,21 @@
 void rev_string(char *s)
 {
 	int cont = 0;
+	int a;
+	int z;
+	char tem
 
 	while (s[cont] != '\0')
 	{
 		cont++;
 	}
 
-	int a;
 	a = 0;
-	int z;
 	z = cont - 1;
 
 	while (a < z)
 	{
-		char tem = s[a];
+		tem = s[a];
 
 		s[a] = s[z];
 		s[z] = tem;
