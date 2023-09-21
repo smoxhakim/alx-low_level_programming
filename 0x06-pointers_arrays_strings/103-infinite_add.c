@@ -9,13 +9,13 @@
  * Return:or 0 r
  * owned by: SmoxHAkim
  */
-char *infinite_add(char *n1, char *n2, char *r, unt size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int u, v, w, x, y, z;
 
-	for (u = 0; z1[u]; u++)
+	for (u = 0; n1[u]; u++)
 		;
-	for (v = 0; z2[v]; v++)
+	for (v = 0; n2[v]; v++)
 		;
 	if (u > size_r || v > size_r)
 		return (0);
@@ -26,11 +26,11 @@ char *infinite_add(char *n1, char *n2, char *r, unt size_r)
 		z = y;
 		if (u >= 0)
 		{
-			z += z1[u] - '0';
+			z += n1[u] - '0';
 		}
 		if (v >= 0)
 		{
-			z += z2[v] - '0';
+			z += n2[v] - '0';
 		}
 		if (u < 0 && v < 0 && z == 0)
 		{
