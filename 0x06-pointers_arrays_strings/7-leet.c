@@ -2,11 +2,11 @@
 
 /**
  * leet - encodes a string
- * @str: imput string
+ * @s: imput string
  * Return: str
  * owned by: SmoxHakim
  */
-char *leet(char *str)
+char *leet(char *s)
 {
 	int x, y;
 	char alph[] = "aAeEoOtTlL";
@@ -16,9 +16,11 @@ char *leet(char *str)
 	{
 		for (y = 0; y <= 9; y++)
 		{
-			if (alph[y] == str[x])
-				str[x] = num[y];
+			if (alph[y] == s[x])
+			{
+				s[x] = num[y];
+			}
 		}
 	}
-	return (str);
+	return (s);
 }
