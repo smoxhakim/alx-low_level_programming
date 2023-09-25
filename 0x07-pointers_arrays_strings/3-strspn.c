@@ -4,17 +4,20 @@
  * _strspn - gets the langh
  * @s: the string
  * @accept: the count
+ * Return: x
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int count = 0;
+	unsigned int x, y;
 
-	while (*s != '\0' && accept != NULL)
+	for (x = 0; s[x] != '\0'; y++)
 	{
-		count++;
-		s++;
+		for (y = 0; accept[y] != s[x]; y++)
+		{
+			if (accept[y] == '\0')
+				return (x);
+		}
 	}
-
-	return (count);
+	return (x);
 }
