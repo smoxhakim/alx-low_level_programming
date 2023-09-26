@@ -18,7 +18,7 @@ void print_diagsums(int *a, int size)
 		{
 			sum1 += *(a + x);
 		}
-		else if (x % (size - 1) == 0 && x != 0 && x < size * size - 1)
+		if (x % (size - 1) == 0 && x != 0 && x < size * size - 1)
 		{
 			sum2 += *(a + x);
 		}
