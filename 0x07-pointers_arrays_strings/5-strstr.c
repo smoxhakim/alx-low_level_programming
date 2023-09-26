@@ -25,11 +25,11 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (needle[y])
 		{
-			y++;
+			x++;
 			y = 0;
 		}
 		else
-			return (haystack + y);
+			return (haystack + x);
 	}
 	return (0);
 }
