@@ -18,6 +18,6 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-		_puts_recursion(s + s[x]);
+		_puts_recursion(s);
 	}
 }
