@@ -30,5 +30,5 @@ int sqrt_recursion(int n, int ges)
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt_recursion(int n, 0));
+	return (sqrt_recursion(n, 0));
 }
