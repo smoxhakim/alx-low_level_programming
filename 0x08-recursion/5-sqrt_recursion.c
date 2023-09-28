@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * sqrt_recursion - a checker
  * _sqrt_recursion - print the square
  * @n: the number
  * @ges: the gueess number
