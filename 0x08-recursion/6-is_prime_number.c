@@ -10,7 +10,7 @@
 
 int _is_prime_number(int n, int ges)
 {
-	if (n < 0)
+	if (n <= 1)
 	{
 		return (0);
 	}
