@@ -8,7 +8,7 @@
  * owned by: SmoxHakim
  */
 
-int _sqrt_recursion(int n, int ges)
+int sqrt_recursion(int n, int ges)
 {
 	if (n < 0)
 	{
@@ -24,11 +24,11 @@ int _sqrt_recursion(int n, int ges)
 	}
 	else
 	{
-		return (_sqrt_recursion(n, ges + 1));
+		return (sqrt_recursion(n, ges + 1));
 	}
 }
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt_recursion(int n, 0));
+	return (sqrt_recursion(int n, 0));
 }
