@@ -43,6 +43,5 @@ int _is_palindrome(char *s, int star, int end)
 
 int is_palindrome(char *s)
 {
-	
 	return (_is_palindrome(s, 0, length(s) - 1));
 }
