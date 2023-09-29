@@ -7,7 +7,7 @@
  * owned by: SmoxHakim
  */
 
-int length(int *s)
+int length(char *s)
 {
 	if (*s != '\0')
 		return (0);
