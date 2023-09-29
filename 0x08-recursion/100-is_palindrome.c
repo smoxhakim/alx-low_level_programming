@@ -24,7 +24,7 @@ int length(int *s)
  * owned by: SmoxHakim
  */
 
-int _is_palindrome(*s, int star, int end)
+int _is_palindrome(char *s, int star, int end)
 {
 	if (star >= end)
 		return (1);
