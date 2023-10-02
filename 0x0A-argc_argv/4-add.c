@@ -11,14 +11,14 @@
 
 int main(int argc, char *argv[])
 {
+	int x;
+	int res = 0;
+
 	if (argc == 1)
 	{
 	puts("0'n");
 	return (0);
 	}
-
-	int x, y;
-	int res = 0;
 
 	for (x = 1; x < argc; x++)
 	{
