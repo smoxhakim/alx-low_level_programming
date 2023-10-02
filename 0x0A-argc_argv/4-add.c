@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-	puts("0\n");
+	puts("0");
 	return (0);
 	}
 
