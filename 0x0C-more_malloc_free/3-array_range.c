@@ -19,18 +19,16 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 
-	total = (max - min);
+	total = (max - min + 1);
 
-	ptr = malloc(total + 1);
+	ptr = (int *)malloc(sizof(int) * total);
 
 	if (!ptr)
 		return (NULL);
 
-	zero = (unsigned int *)ptr;
-
-	for (x = 0; x <= max; x++)
+	for (x = 0; x < total; x++)
 	{
-		zero[x] = min;
+		ptr[x] = min;
 		min++;
 	}
 
