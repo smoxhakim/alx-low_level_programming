@@ -9,7 +9,7 @@
 
 char *mylenght(char *s)
 {
-	int len = 0;
+	unsigned int len = 0;
 
 	while (s[len] != '\0')
 	{
