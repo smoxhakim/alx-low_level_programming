@@ -7,7 +7,7 @@
  * owned by: SmoxHakim
  */
 
-char *mylenght(char *s)
+unsigned int mylenght(char *s)
 {
 	unsigned int len = 0;
 

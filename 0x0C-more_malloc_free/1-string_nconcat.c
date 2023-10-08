@@ -26,8 +26,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	}
 
-	len1 = (int *)mylenght(s1);
-	len2 = (int *)mylenght(s2);
+	len1 = mylenght(s1);
+	len2 = mylenght(s2);
 
 	if (n >= len2)
 	{
