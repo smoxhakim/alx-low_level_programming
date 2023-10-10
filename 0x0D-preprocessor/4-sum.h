@@ -1,3 +1,3 @@
-#ifndef SUN(x, y)
+#ifndef SUN
 #define SUM(x, y) ((x) + (y))
 #endif
