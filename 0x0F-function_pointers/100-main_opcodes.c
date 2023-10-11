@@ -53,8 +53,8 @@ void print_opcodes(int bytes)
 		printf("%02x", main_ptr[x]);
 		if (x < bytes - 1)
 		{
-			_putchar(' ');
+			putchar(' ');
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
