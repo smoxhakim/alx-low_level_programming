@@ -4,7 +4,27 @@
 #include <unistd.h>
 
 
-void print_opcodes(int bytes);
+/**
+ * print_opcodes - print the opcodes of the main function
+ * @bytes: number of bytes to print
+ * owned by: SmoxHakim
+ */
+
+void print_opcodes(int bytes)
+{
+        unsigned char *main_ptr = (unsigned char *)print_opcodes;
+        int x;
+
+        for (x = 0; x < bytes; x++)
+        {
+                printf("%02x", main_ptr[x]);
+                if (x < bytes - 1)
+                {
+                        printf(" ");
+                }
+        }
+        printf("\n");
+}
 
 /**
  * main - start of the program
@@ -35,26 +55,4 @@ int main(int argc, char *argv[])
 	print_opcodes(bytes);
 
 	return (0);
-}
-
-/**
- * print_opcodes - print the opcodes of the main function
- * @bytes: number of bytes to print
- * owned by: SmoxHakim
- */
-
-void print_opcodes(int bytes)
-{
-	unsigned char *main_ptr = (unsigned char *)print_opcodes;
-	int x;
-
-	for (x = 0; x < bytes; x++)
-	{
-		printf("%02x", main_ptr[x]);
-		if (x < bytes - 1)
-		{
-			printf(" ");
-		}
-	}
-	printf("\n");
 }
