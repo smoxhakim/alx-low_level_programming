@@ -12,18 +12,18 @@
 
 void print_opcodes(int bytes)
 {
-        unsigned char *main_ptr = (unsigned char *)print_opcodes;
-        int x;
+	unsigned char *main_ptr = (unsigned char *)print_opcodes;
+	int x;
 
-        for (x = 0; x < bytes; x++)
-        {
-                printf("%02x", main_ptr[x]);
-                if (x < bytes - 1)
-                {
-                        printf(" ");
-                }
-        }
-        printf("\n");
+	for (x = 0; x < bytes; x++)
+	{
+		printf("%02x", main_ptr[x]);
+		if (x < bytes - 1)
+		{
+			printf(" ");
+		}
+	}
+		printf("\n");
 }
 
 /**
