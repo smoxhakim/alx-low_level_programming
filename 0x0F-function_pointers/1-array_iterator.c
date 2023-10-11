@@ -1,4 +1,5 @@
-#include "funcyion_pointer.h"
+#include "function_pointers.h"
+#include <stdio.h>
 
 /**
  * array_iterator - execute the given paratmeter
