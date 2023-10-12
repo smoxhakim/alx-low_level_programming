@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * print_string - print str
+ * print_strings - print str
  * @separator: the str
  * @n: input numbre
  * owned by: SmoxHakim
@@ -34,10 +34,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 		}
 	}
-	
+
 	printf("\n");
-	va_end(args)
+	va_end(args);
 }
-
-
-
