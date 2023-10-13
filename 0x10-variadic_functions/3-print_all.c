@@ -10,44 +10,32 @@
 
 void print_all(const char * const format, ...)
 {
-
-	char *str, *separator = "";
-	int i = 0;
 	va_list args;
+	char *separator = "";
+	int i = 0;
 
 	va_start(args, format);
 	while (format && format[i])
 	{
-		if (i > 0)
+		switch (format[i])
 		{
-			separator = ", ";
+			case 'c':
+				printf("%s%c", separator, va_arg(args, int));
+				break;
+			case 'i':
+				printf("%s%d", separator, va_arg(args, int));
+				break;
+			case 'f':
+				printf("%s%f", separator, (float)va_arg(args, double));
+				break;
+			case 's':
+				separator = va_arg(args, char *) ? "" : "(nil)";
+				printf("%s%s", separator, va_arg(args, char *));
+				break;
 		}
-
-		if (format[i] == 'c')
-		{
-			printf("%s%c", separator, va_arg(args, int));
-		}
-		else if (format[i] == 'i')
-		{
-			printf("%s%d", separator, va_arg(args, int));
-		}
-		else if (format[i] == 'f')
-		{
-			printf("%s%f", separator, (float)va_arg(args, double));
-		}
-		else if (format[i] == 's')
-		{
-			str = va_arg(args, char *);
-
-			if (str == NULL)
-			{
-				str = "(nil)";
-			}
-			printf("%s%s", separator, str);
-		}
+		separator = ", ";
 		i++;
-		}
-
-	va_end(args);
+	}
 	printf("\n");
+	va_end(args);
 }
