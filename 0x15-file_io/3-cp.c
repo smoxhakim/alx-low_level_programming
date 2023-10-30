@@ -31,7 +31,7 @@ char *create_buff(char *file)
  * clo_file - Closes the file descriptors
  * @fd: file descriptor to be closed
  */
-void close_file(int fd)
+void clo_file(int fd)
 {
 	int c;
 
