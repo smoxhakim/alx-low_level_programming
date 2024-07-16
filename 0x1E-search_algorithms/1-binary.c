@@ -41,8 +41,7 @@ void print_subarray(int *array, size_t l, size_t r)
 
 int binary_search(int *array, size_t size, int value)
 {
-	size_t l = 0;
-	size_t mid, r = size - 1;
+	size_t l = 0, mid, r = size - 1;
 
 	if (array == NULL)
 	{
